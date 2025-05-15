@@ -1,0 +1,166 @@
+[
+  {
+    "uid": "uid_001",
+    "query": "What is the trend observed in the in-context accuracy as training progresses?",
+    "answer": "The trend observed in the in-context accuracy as training progresses is an increase in accuracy over time. This can be seen in the middle graph labeled \"in-context accuracy,\" where the red line representing \"K=5, random q\" shows a steady rise from around 0.1 at the beginning of training to approximately 0.9 by the end of the 500 iterations.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-birth-of-a-transformer-a-memory-viewpoint-Paper-Conference.pdf",
+      "reference_page": [28],
+      "reference_element_Chart": "images/fd86be3269e0b34323c119b9d63933f117e40034583d427beac9289d90092ed5.jpg",
+      "reference_element_Chart_Caption": "Figure 10: Training of a more realistic architecture with (i) ReLU MLP instead of linear layer for the second feed-forward layer, (ii) all parameters trained, including embeddings, (iii) pre-layer normalization. The loss, in-context accuracy and memory recall probes are similar to the simplified architecture (see, e.g., Figure 4).",
+      "query_type": "Chart"
+    }
+  },
+  {
+    "uid": "uid_002",
+    "query": "Which head in the first layer of the two-layer model is primarily responsible for the previous token mechanism?",
+    "answer": "The first head in the first layer of the two-layer model is primarily responsible for the previous token mechanism.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-birth-of-a-transformer-a-memory-viewpoint-Paper-Conference.pdf",
+      "reference_page": [28],
+      "reference_element_Chart": "images/51950ca3f625b2cba1d0a272357e00fd588dfc9403f191bf7d4445e98e982b1c.jpg",
+      "reference_element_Chart_Caption": "Figure 11: Attention maps for a two-layer model with 4 attention heads. In the first layer (top), the previous token mechanism is mostly achieved by one of the four heads, while the induction behavior at the second layer (bottom) is distributed across the different heads.",
+      "query_type": "Chart"
+    }
+  },
+  {
+    "uid": "uid_003",
+    "query": "Which policy achieves the highest normalized returns for the \"hopper-med\" task among all the methods shown in the figure?",
+    "answer": "The policy that achieves the highest normalized returns for the \"hopper-med\" task among all the methods shown in the figure is the ORL policy, as indicated by the green bar which is the tallest among the bars corresponding to different methods for this task.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-adversarial-model-for-offline-reinforcement-learning-Paper-Conference.pdf",
+      "reference_page": [1],
+      "reference_element_Chart": "images/51950ca3f625b2cba1d0a272357e00fd588dfc9403f191bf7d4445e98e982b1c.jpg",
+      "reference_element_Chart_Caption": "Figure 1: Robust Policy Improvement: ARMOR can improve performance over the reference policy (REF) over a broad range of pessimism hyperparameter (purple) regardless of data coverage. ORL denotes best offline RL policy without using the reference policy, and reference is obtained by behavior cloning on expert dataset. ",
+      "query_type": "Chart"
+    }
+  },
+  {
+    "uid": "uid_004",
+    "query": "What action does the reference policy take in the start state?",
+    "answer": "The reference policy takes the right action ($a_r$) in the start state.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-adversarial-model-for-offline-reinforcement-learning-Paper-Conference.pdf",
+      "reference_page": [3],
+      "reference_element_Chart": "images/51950ca3f625b2cba1d0a272357e00fd588dfc9403f191bf7d4445e98e982b1c.jpg",
+      "reference_element_Chart_Caption": "Figure 2: A toy MDP illustrating the RPI property of ARMOR. (Top) The true MDP has deterministic dynamics where taking the left $(a_{l})$ or right $(a_{r})$ actions takes the agent to corresponding states; start state is in yellow. The suboptimal behavior policy visits only the left part of the state space, and the reference policy demonstrates optimal behavior by always choosing $a_{r}$ . (Bottom) A subset of possible data-consistent MDP models in the version space. The adversary always chooses the MDP that makes the reference maximally outperform the learner. In response, the learner will learn to mimic the reference outside data support to be competitive.",
+      "query_type": "Chart"
+    }
+  },
+  {
+    "uid": "uid_005",
+    "query": "What action does the reference policy take in the start state according to the figure?",
+    "answer": "The reference policy takes the right action ($a_r$) in the start state according to the figure.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-adversarial-model-for-offline-reinforcement-learning-Paper-Conference.pdf",
+      "reference_page": [21],
+      "reference_element_Chart": "images/a5532fed805d7945a891dfdf1fc2a3fae4da6e1a380c77688d451b1a101322e6.jpg",
+      "reference_element_Chart_Caption": "Figure 4: A toy MDP illustrating the RPI property of ARMOR. (Top) The true MDP has deterministic dynamics where taking the left $(a_{l})$ or right $(a_{r})$ actions takes the agent to corresponding states; start state is in yellow. The suboptimal behavior policy only visits only the left part of the state space, and the reference policy demonstrates optimal behavior by always choosing $a_{r}$ . (Bottom) A subset of possible data-consistent MDP models (dynamics $^+$ rewards) in the version space. The adversary always chooses the MDP that makes the reference maximally outperform the learner. In response, the learner will learn to mimic the reference outside data support to be competitive.  ",
+      "query_type": "Chart"
+    }
+  },
+  {
+    "uid": "uid_006",
+    "query": "What is the hidden size for the policy network?",
+    "answer": "The hidden size for the policy network is 256.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-adversarial-model-for-offline-reinforcement-learning-Paper-Conference.pdf",
+      "reference_page": [22],
+      "reference_element_Table": "images/2391e453d435ef1e9c7ea7a31ee964dc4d7ffee3a6768d8a92eba5798e75a612.jpg",
+      "reference_element_Table_Caption": "Table 2: Model Architecture Details ",
+      "query_type": "Table"
+    }
+  },
+  {
+    "uid": "uid_007",
+    "query": "What is the ROC AUC score for PaLI on the COCOCON dataset?",
+    "answer": "The ROC AUC score for PaLI on the COCOCON dataset is 87.1.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-what-you-see-is-what-you-read-improving-text-image-alignment-evaluation-Paper-Conference.pdf",
+      "reference_page": [18],
+      "reference_element_Table": "images/28ce458f2de4bd3a58d86611ccd591c006891d4f3e5f92da972f5f53fad816c1.jpg",
+      "reference_element_Table_Caption": "Table 8: Comparison of $\\mathrm{VQ^{2}}$ results for BLIP2 and PaLI (ROC AUC scores). Note the difference in evaluation: PaLI’s $\\mathrm{VQ^{2}}$ score represents the probability of a “yes” response, while BLIP2 offers a definitive answer without probability. ",
+      "query_type": "Table"
+    }
+  },
+  {
+    "uid": "uid_008",
+    "query": "What is the highest MaskAP score achieved among the algorithms tested with a sparsity level of 0.8?",
+    "answer": "The highest MaskAP score achieved among the algorithms tested with a sparsity level of 0.8 is 37.1, which corresponds to the RPG (Ours) algorithm.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-towards-higher-ranks-via-adversarial-weight-pruning-Paper-Conference.pdf",
+      "reference_page": [7],
+      "reference_element_Table": "images/95f971eb22dde4f94efc5d4acc625f81f3d6adf6616cd70b8813f706fdf630f8.jpg",
+      "reference_element_Table_Caption": "Table 4. Mask R-CNN pruning on COCO val2017. \"Sp.\" stands for model sparsity. Best results are bolded. ",
+      "query_type": "Table"
+    }
+  },
+  {
+    "uid": "uid_009",
+    "query": "What is the sparse accuracy achieved by RPG (Ours) with a sparsity level of 0.6?",
+    "answer": "The sparse accuracy achieved by RPG (Ours) with a sparsity level of 0.6 is **79.89**.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-adversarial-model-for-offline-reinforcement-learning-Paper-Conference.pdf",
+      "reference_page": [7],
+      "reference_element_Table": "images/d339afc2377b9070c38b2e031036c7cf92420ea0c96d8eed8f56bdcfdc587f68.jpg",
+      "reference_element_Table_Caption": "Table 5. Sparse DeiT-S on ImageNet. \"Sp.\" stands for model sparsity. The best results are bolded.",
+      "query_type": "Table"
+    }
+  },
+  {
+    "uid": "uid_010",
+    "query": "What is the performance of OPT2.7B BLIP-2† on the VQAv2 test-dev dataset?",
+    "answer": "The performance of OPT2.7B BLIP-2† on the VQAv2 test-dev dataset is 53.5.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-bootstrapping-vision-language-learning-with-decoupled-language-pre-training-Paper-Conference.pdf",
+      "reference_page": [6],
+      "reference_element_Table": "images/b7b02056c70ac08ad73312f61cd20ace8bcc3eddd9a070c9a832c8e730b9119e.jpg",
+      "reference_element_Table_Caption": "Table 1: Comparison with different methods on zero-shot VQA $^\\dagger$ : numbers taken from Li et al. [34].",
+      "query_type": "Table"
+    }
+  },
+  {
+    "uid": "uid_011",
+    "query": "What does the paper assume about the value of \\( d \\) to ensure correct associations?",
+    "answer": "The paper assumes that \\( d \\) is large enough to satisfy the desired associative memory behaviors.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-birth-of-a-transformer-a-memory-viewpoint-Paper-Conference.pdf",
+      "reference_page": [14],
+      "reference_element_Text": "Ensuring appropriate memory lookups then requires such properties to hold for many embeddings and pairs of embeddings, with errors that are small enough to ensure correct associations. This may be achieved with careful union bounds or more powerful concentration results. We do not attempt to do this in a precise manner in this paper, and will generally assume $d$ large enough to satisfy the desired associative memory behaviors, noting that a precise analysis is an important direction for future work (see [7] for a first step in this direction). ",
+      "query_type": "Text"
+    }
+  },
+  {
+    "uid": "uid_012",
+    "query": "What layers are focused on in the remainder of this section?",
+    "answer": "The layers focused on in the remainder of this section are $W_{O}^{2}$, $W_{K}^{2}$, and $W_{K}^{1}$.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-birth-of-a-transformer-a-memory-viewpoint-Paper-Conference.pdf",
+      "reference_page": [16],
+      "reference_element_Text": "For simplicity, we thus drop the feed-forward layer $W_{F}$ in the remainder of this section, focusing on the learning of $W_{O}^{2},W_{K}^{2}$ and $W_{K}^{1}$ , in this top-down order. We will consider zero-initialization a single gradient steps, noting that random initialization should lead to similar associative memory behaviors when the dimension is large enough, since it leads to a remapping of input embeddings which is near-orthogonal to any output embedding (see Appendix A).",
+      "query_type": "Text"
+    }
+  },
+  {
+    "uid": "uid_013",
+    "query": "How does HRank [33] use matrix rank evaluations in pruning?",
+    "answer": "HRank [33] uses matrix rank evaluations in pruning by evaluating the ranks of weight tensors to guide the update of a sparse network topology.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-towards-higher-ranks-via-adversarial-weight-pruning-Paper-Conference.pdf",
+      "reference_page": [5],
+      "reference_element_Text": "Specifically, HRank [33] also leverages matrix rank evaluations in pruning. Our idea is significantly different from HRank [33] in the following aspects: 1. HRank performs filter pruning while our work focuses on weight pruning; 2. HRank evaluates ranks of feature maps, but we evaluate ranks of weight tensors; 3. HRank uses feature rank as filter saliency; our work uses weight rank to guide the update of a sparse network topology.",
+      "query_type": "Text"
+    }
+  },
+  {
+    "uid": "uid_014",
+    "query": "What are the two image classification datasets used to evaluate the RPG method?",
+    "answer": "The two image classification datasets used to evaluate the RPG method are CIFAR-10 and ImageNet.",
+    "meta_info": {
+      "file_name": "NeurIPS-2023-towards-higher-ranks-via-adversarial-weight-pruning-Paper-Conference.pdf",
+      "reference_page": [5],
+      "reference_element_Text": "Our Rank-based PruninG (RPG) method is evaluated on several behchmarks and proved outstanding among recent unstructured pruning baselines. This section presents the experiment results to empirically prove the effectiveness of our RPG method, especially on high sparsities. First, we will show the results of RPG on two image classification datasets: the comparatively small-scaled CIFAR-10, and the large-scaled ImageNet. Then, we will present the results of RPG on downstream vision tasks. Finally, an ablation study will be given.",
+      "query_type": "Text"
+    }
+  }
+]
