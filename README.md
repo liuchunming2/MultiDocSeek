@@ -1,4 +1,4 @@
-# MultiDocSeek: A Large-Scale Cross-Document QA Dataset  
+# MultiDocSeek: A Benchmark for a Large-Scale Cross-Document QA Dataset 
 
 ## Dataset Overview  
 MultiDocSeek is a **large-scale cross-document question-answering (QA) dataset** designed to evaluate the fine-grained capabilities of Retrieval-Augmented Generation (RAG) systems. Its core objective is to validate the impact of different retrieval granularities (coarse-grained vs. fine-grained) on generation quality, providing a standardized benchmark for multimodal retrieval and generation tasks.  
